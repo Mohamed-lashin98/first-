@@ -1,0 +1,44 @@
+body {
+  background: url("bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  background-color: Tomato;
+  color: white;
+  font-style: italic;
+  margin-top: 0;
+  font-size: 60px;
+}
+h2 {
+  background-color: SlateBlue;
+  color: white;
+  margin: 30px 50px 30px 40px;
+  padding: 30px 40px;
+}
+
+.space a {
+  word-spacing: 40px;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+a :link,
+a:visited {
+  background-color: Gray;
+  display: inline-block;
+  color: white;
+  padding: 15px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #555;
+  padding: 15px;
+}
+a:active {
+  background-color: orange;
+  padding: 15px;
+}
